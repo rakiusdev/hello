@@ -10,7 +10,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['ff-birthdays'],
+  app_name: ['ff-hello'],
   /**
    * Your New Relic license key.
    */
