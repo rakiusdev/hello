@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  table(border='1')
+    tr
+      th Name
+      th Birth Date
+      th Age
+    each person in people
+      tr
+        td= person.name
+        td= person.birth_date
+        td= person.age()
